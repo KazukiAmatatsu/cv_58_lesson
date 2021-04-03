@@ -27,3 +27,9 @@ const str = 'This is a pen.'
 
 console.log(str.slice(1, 3)) //=> his
 console.log(str.slice(8, 13)) //=> a pen
+
+/*
+メソッドとは
+javaSprictがあらかじめ用意した関数を呼び出すこと
+構文とメソッドの違いは[.]が付くか付かないか
+*/
