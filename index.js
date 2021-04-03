@@ -92,6 +92,14 @@ for (let 変数 = 0; 変数 < 繰り返し回数; 変数++) {
 for (let i = 0; i < 10; i++) {
   console.log(i)
 }
+// i++ とは　index = index + 1
+
+const nums = [1, 2, 3, 4, 5];
+
+for (let i = 0; i < nums.length; i++) {
+  console.log(nums[i] * 2);
+}
+// .length とは munsの配列の個数を取得する
 
 
 // while文(ある条件を満たすまで繰り返す)
@@ -107,6 +115,23 @@ while (s < 100000) {
   console.log(s)
   s = s * s
 }
+
+// do while文
+let power =98;
+let i = 0;
+
+do {
+  console.log(`今のpower:${power}`);
+  if (power>=99) {
+    console.log('powerは最大です');
+    i += 3;
+  } else {
+    power += 1;
+    i ++;
+  }
+} while(i<3);
+
+console.log(power);
 
 
 // forEach(配列の要素を1つずつ取り出してループ)
