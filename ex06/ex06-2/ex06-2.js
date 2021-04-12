@@ -7,7 +7,7 @@ const items = [
   ]
 
   const sums = items.map((item) => {
-  return item[1] + item[2] + item[3] + item[4] + item[5] + item[6]
+  return item[0] + item[1] + item[2] + item[3] + item[4] + item[5] + item[6]
   // forEachと同じように各要素を一つずつ取り出して合計している
   })
   console.log(sums) //=> [424, 313, 291, 379]
