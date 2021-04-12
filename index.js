@@ -33,3 +33,28 @@ console.log(str.slice(8, 13)) //=> a pen
 javaSprictがあらかじめ用意した関数を呼び出すこと
 構文とメソッドの違いは[.]が付くか付かないか
 */
+
+
+// 授業内で扱ったメソッド
+window.alert('ara-todayo');
+window.confirm('ara-todayo');
+
+if (window.confirm('ara-todayo')) {
+  console.log('trueきた');
+} else {
+  console.log('falseきた');
+}
+
+
+// じゃんけんゲーム
+const yourHand = window.prompt('0~2の数字を入力してください');
+
+if (yourHand % 3 === 0) {
+  console.log('勝ちました');
+} else if (yourHand % 3 === 1) {
+  console.log('負けました');
+} else if (yourHand % 3 === 2) {
+  console.log('あいこです.');
+} else {
+  console.log('あなたとはじゃんけんしません');
+}
